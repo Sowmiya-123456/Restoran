@@ -1,0 +1,103 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.overall-container{
+    min-height:100vh;
+    background-image: url(./briyani2\ image.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* opacity: 0.5; */ 
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin: auto;
+    padding-top: 20px;
+    background-color: grey;
+}
+.navbar-container{
+    color: #e78f38;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.container{
+    padding-left: 15px;
+    color: #e78f38;
+}
+ul{
+    list-style: none;
+}
+ nav ul{
+    display: flex;
+    align-items: center;
+}
+nav ul li a{
+    margin: 0 20px;
+    font-size: 15px;
+    color: #fff;
+    text-transform: uppercase;
+}
+nav ul li a:hover{
+    color: blue; 
+    border-bottom: 2px solid blue;
+    transition: all 0.3s ease;
+    transition-duration: 2s;
+} 
+nav button{
+    background-color: blue;
+    border: none;
+    color: whitesmoke;
+    padding: 12px 35px;
+    font-size: 15px;
+    /* font-weight: 800; */
+    border-radius: 20px;
+    padding-left: 20px;
+    transition-duration: 3s;
+    padding-bottom: 20px;   
+}
+nav button:hover{
+    transform: scale(.8);    
+}
+.content{
+    position: absolute;
+    top: 35%;
+    left: 90px;
+    transition: all;
+}
+
+h2{
+    font-size: 50px;
+    text-transform: uppercase;
+    color: aliceblue;
+}
+
+p{
+    font-size: 17px;
+    margin-top: 10px;
+    color:aliceblue;
+}
+.content button{
+    margin-top: 50px;
+    background-color: blue;
+    border: none;
+    color: whitesmoke;
+    padding: 12px 45px;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 2rem;
+    transition-duration: 3s;
+}
+.content button:hover{
+    scale: .8;
+}
+.content button.know_more{
+    background: transparent;
+    border: 2px solid orangered;
+    color: orangered;
+}
